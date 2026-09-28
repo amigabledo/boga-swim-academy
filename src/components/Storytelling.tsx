@@ -9,7 +9,7 @@ export const Storytelling: React.FC = () => {
         
         {/* Encabezado de sección tipo editorial */}
         <div className="max-w-3xl mb-16 lg:mb-20">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-100 text-boga-navy text-xs font-semibold uppercase tracking-wider mb-4">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-stone-100 text-stone-800 text-xs font-semibold uppercase tracking-wider mb-4">
             Filosofía e identidad
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
@@ -17,7 +17,7 @@ export const Storytelling: React.FC = () => {
           </h2>
           <p className="mt-4 text-lg text-slate-600 leading-relaxed">
             El nombre de nuestra academia proviene del pasaje de Lucas 5:4:{' '}
-            <span className="italic text-boga-navy font-semibold">«Boga mar adentro»</span>.
+            <span className="italic text-stone-900 font-semibold">«Boga mar adentro»</span>.
             Bogar significa remar hacia lo profundo, tener la valentía de creer cuando aún no se ven los resultados y poner toda la confianza en Aquel que nos sostiene.
           </p>
         </div>
@@ -37,14 +37,14 @@ export const Storytelling: React.FC = () => {
                   />
                 </div>
                 <div className="p-4 rounded-xl bg-boga-mist border border-slate-200/60">
-                  <p className="text-xs font-semibold text-boga-navy uppercase tracking-wider">Superación</p>
+                  <p className="text-xs font-semibold text-stone-800 uppercase tracking-wider">Superación</p>
                   <p className="text-sm font-bold text-slate-800 mt-1">El agua como escuela de vida</p>
                 </div>
               </div>
 
               <div className="space-y-4 pt-8 sm:pt-12">
-                <div className="p-4 rounded-xl bg-blue-50 border border-blue-100">
-                  <p className="text-xs font-semibold text-boga-sky-dark uppercase tracking-wider">Valores bíblicos</p>
+                <div className="p-4 rounded-xl bg-stone-50 border border-stone-200">
+                  <p className="text-xs font-semibold text-stone-700 uppercase tracking-wider">Valores bíblicos</p>
                   <p className="text-sm font-bold text-slate-800 mt-1">Fe, paz, amor y temor de Dios</p>
                 </div>
                 <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/5] bg-slate-100">
@@ -60,12 +60,12 @@ export const Storytelling: React.FC = () => {
 
           {/* Bloque narrativo derecho: Misión, Visión y Pilares */}
           <div className="lg:col-span-6 space-y-8">
-            <div className="p-6 sm:p-8 rounded-2xl bg-gradient-to-br from-boga-navy via-boga-navy-dark to-boga-navy-deep text-white shadow-xl relative overflow-hidden">
-              <div className="absolute top-0 right-0 w-48 h-48 bg-boga-sky/20 rounded-full blur-2xl pointer-events-none"></div>
+            <div className="p-6 sm:p-8 rounded-2xl bg-stone-50 text-slate-900 border border-stone-200 shadow-sm relative overflow-hidden">
+              <div className="absolute top-0 right-0 w-48 h-48 bg-stone-200/50 rounded-full blur-2xl pointer-events-none"></div>
               
               <div className="relative z-10 space-y-6">
                 <div>
-                  <div className="inline-flex items-center gap-2 text-boga-yellow text-xs font-bold uppercase tracking-wider mb-2">
+                  <div className="inline-flex items-center gap-2 text-stone-600 text-xs font-bold uppercase tracking-wider mb-2">
                     <Target className="w-4 h-4" />
                     <span>Nuestra misión</span>
                   </div>
@@ -74,12 +74,12 @@ export const Storytelling: React.FC = () => {
                   </p>
                 </div>
 
-                <div className="pt-4 border-t border-white/15">
-                  <div className="inline-flex items-center gap-2 text-boga-sky text-xs font-bold uppercase tracking-wider mb-2">
+                <div className="pt-4 border-t border-stone-200">
+                  <div className="inline-flex items-center gap-2 text-stone-600 text-xs font-bold uppercase tracking-wider mb-2">
                     <Compass className="w-4 h-4" />
                     <span>Nuestra visión</span>
                   </div>
-                  <p className="text-base sm:text-lg text-slate-200 leading-snug">
+                  <p className="text-base sm:text-lg text-slate-700 leading-snug">
                     {ACADEMY_INFO.vision}
                   </p>
                 </div>
@@ -89,9 +89,9 @@ export const Storytelling: React.FC = () => {
             {/* Cuatro valores fundacionales en tarjetas compactas */}
             <div className="grid grid-cols-2 gap-4">
               {ACADEMY_INFO.values.map((val) => (
-                <div key={val} className="p-4 rounded-xl border border-slate-200/80 bg-white hover:border-boga-sky/60 transition-colors shadow-sm">
+                <div key={val} className="p-4 rounded-xl border border-slate-200/80 bg-white hover:border-stone-400 transition-colors shadow-sm">
                   <div className="flex items-center gap-2.5">
-                    <div className="w-2 h-2 rounded-full bg-boga-sky"></div>
+                    <div className="w-2 h-2 rounded-full bg-stone-400"></div>
                     <h3 className="text-base font-bold text-slate-900">{val}</h3>
                   </div>
                 </div>

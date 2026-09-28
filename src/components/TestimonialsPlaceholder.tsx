@@ -11,8 +11,8 @@ export const TestimonialsPlaceholder: React.FC = () => {
     <section className="py-20 lg:py-24 bg-white border-b border-slate-100">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         
-        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-100 text-boga-navy text-xs font-semibold uppercase tracking-wider mb-6">
-          <MessageSquareQuote className="w-3.5 h-3.5 text-boga-sky" />
+        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-stone-100 text-stone-800 text-xs font-semibold uppercase tracking-wider mb-6">
+          <MessageSquareQuote className="w-3.5 h-3.5 text-stone-600" />
           <span>Comunidad y familias</span>
         </div>
 
@@ -25,9 +25,9 @@ export const TestimonialsPlaceholder: React.FC = () => {
         </p>
 
         {/* Bloque preparado para recibir testimonios de padres de familia */}
-        <div className="mt-12 p-8 sm:p-10 rounded-3xl bg-boga-mist border border-slate-200/80 text-left max-w-3xl mx-auto shadow-sm">
+        <div className="mt-12 p-8 sm:p-10 rounded-3xl bg-stone-50 border border-slate-200/80 text-left max-w-3xl mx-auto shadow-sm">
           <div className="flex items-center gap-3 mb-4">
-            <div className="w-10 h-10 rounded-full bg-white text-boga-navy flex items-center justify-center shadow-sm">
+            <div className="w-10 h-10 rounded-full bg-white text-stone-800 flex items-center justify-center shadow-sm">
               <Heart className="w-5 h-5 text-boga-coral" />
             </div>
             <div>
@@ -48,9 +48,9 @@ export const TestimonialsPlaceholder: React.FC = () => {
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-xs font-bold text-boga-navy hover:text-boga-sky flex items-center gap-1 transition-colors"
+              className="text-xs font-bold text-stone-800 hover:text-stone-600 flex items-center gap-1 transition-colors"
             >
-              <Sparkles className="w-3.5 h-3.5 text-boga-yellow-dark" />
+              <Sparkles className="w-3.5 h-3.5 text-amber-600" />
               <span>Comparte tu experiencia con nosotros</span>
             </a>
           </div>

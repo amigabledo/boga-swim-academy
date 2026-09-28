@@ -17,9 +17,9 @@ export const PrinciplesSection: React.FC = () => {
   };
 
   return (
-    <section className="py-20 lg:py-28 bg-gradient-to-b from-slate-900 via-boga-navy-dark to-slate-950 text-white relative overflow-hidden">
+    <section className="py-20 lg:py-28 bg-slate-900 text-white relative overflow-hidden">
       {/* Luces y halos en el fondo */}
-      <div className="absolute top-0 left-1/4 w-96 h-96 bg-boga-sky/10 rounded-full blur-3xl pointer-events-none"></div>
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-stone-400/20 rounded-full blur-3xl pointer-events-none"></div>
       <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-boga-yellow/10 rounded-full blur-3xl pointer-events-none"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -48,7 +48,7 @@ export const PrinciplesSection: React.FC = () => {
                 onClick={() => setActiveMonthIndex(index)}
                 className={`py-3 px-2 rounded-xl text-center transition-all duration-200 border ${
                   isCurrent
-                    ? 'bg-boga-sky text-slate-950 font-bold border-white shadow-lg shadow-boga-sky/30 scale-105'
+                    ? 'bg-stone-200 text-slate-900 font-bold border-white shadow-lg shadow-stone-200/30 scale-105'
                     : 'bg-white/5 hover:bg-white/10 text-slate-400 border-white/5 hover:border-white/20'
                 }`}
               >
@@ -108,7 +108,7 @@ export const PrinciplesSection: React.FC = () => {
 
               {/* Aplicación práctica dentro del agua */}
               <div className="p-4 sm:p-5 rounded-2xl bg-white/5 border border-white/10 flex items-start gap-3.5">
-                <div className="p-2 rounded-xl bg-boga-sky/20 text-boga-sky shrink-0 mt-0.5">
+                <div className="p-2 rounded-xl bg-stone-600/30 text-stone-200 shrink-0 mt-0.5">
                   <Droplets className="w-5 h-5" />
                 </div>
                 <div>
@@ -135,7 +135,7 @@ export const PrinciplesSection: React.FC = () => {
                     onClick={() => setActiveMonthIndex(idx)}
                     className={`cursor-pointer px-2.5 py-1.5 rounded-lg flex items-center justify-between transition-colors ${
                       idx === activeMonthIndex
-                        ? 'bg-boga-navy text-white font-bold'
+                        ? 'bg-stone-800 text-white font-bold'
                         : 'text-slate-400 hover:text-white hover:bg-white/5'
                     }`}
                   >

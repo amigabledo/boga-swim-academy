@@ -7,21 +7,25 @@ export const TrustSafety: React.FC = () => {
       icon: ShieldCheck,
       title: 'Acompañamiento dentro del agua',
       desc: 'Nuestros instructores permanecen dentro de la piscina guiando a los estudiantes, garantizando asistencia inmediata y tranquilidad total.',
+      color: 'text-emerald-700',
     },
     {
       icon: Users,
       title: 'Grupos organizados por etapa',
       desc: 'Cada niño aprende con compañeros de su mismo rango de edad y nivel madurativo, fomentando una dinámica respetuosa y estimulante.',
+      color: 'text-amber-700',
     },
     {
       icon: LifeBuoy,
       title: 'Enfoque en salvamento acuático',
       desc: 'No solo enseñamos a desplazarse; capacitamos al nadador para saber flotar, respirar y reaccionar de manera segura ante cualquier eventualidad.',
+      color: 'text-rose-700',
     },
     {
       icon: HeartHandshake,
       title: 'Alianza continua con las familias',
       desc: 'Mantenemos un canal abierto de comunicación con los padres, reportando los avances de cada alumno y celebrando juntos cada logro alcanzado.',
+      color: 'text-stone-700',
     },
   ];
 
@@ -50,11 +54,11 @@ export const TrustSafety: React.FC = () => {
             return (
               <div
                 key={item.title}
-                className="p-6 rounded-2xl bg-slate-50 border border-slate-200/80 hover:border-boga-navy/40 transition-all duration-200 flex flex-col justify-between"
+                className="p-6 rounded-2xl bg-slate-50 border border-slate-200/80 hover:border-stone-400/40 transition-all duration-200 flex flex-col justify-between"
               >
                 <div>
-                  <div className="w-12 h-12 rounded-xl bg-white text-boga-navy flex items-center justify-center shadow-sm border border-slate-100 mb-4">
-                    <Icon className="w-6 h-6 text-boga-navy" />
+                  <div className={`w-12 h-12 rounded-xl bg-white ${item.color} flex items-center justify-center shadow-sm border border-slate-100 mb-4`}>
+                    <Icon className={`w-6 h-6 ${item.color}`} />
                   </div>
                   <h3 className="text-base sm:text-lg font-bold text-slate-900 mb-2">
                     {item.title}

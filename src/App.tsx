@@ -16,7 +16,7 @@ import { WhatsAppFloating } from './components/WhatsAppFloating';
 
 export const App: React.FC = () => {
   return (
-    <div className="min-h-screen flex flex-col bg-[#FAFBFC] text-slate-800 antialiased">
+    <div className="min-h-screen flex flex-col bg-stone-50 text-slate-800 antialiased">
       {/* Barra de navegación superior fija */}
       <Navbar />
 

@@ -6,13 +6,13 @@ export const EditorialGallery: React.FC = () => {
   const [activeImage, setActiveImage] = useState<string | null>(null);
 
   return (
-    <section id="galeria" className="py-20 lg:py-28 bg-[#F4F8FA] border-b border-slate-200">
+    <section id="galeria" className="py-20 lg:py-28 bg-stone-50 border-b border-slate-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Encabezado */}
         <div className="max-w-3xl mb-14">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-100 text-boga-navy text-xs font-semibold uppercase tracking-wider mb-4">
-            <Camera className="w-3.5 h-3.5 text-boga-navy" />
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-stone-200 text-stone-800 text-xs font-semibold uppercase tracking-wider mb-4">
+            <Camera className="w-3.5 h-3.5 text-stone-700" />
             <span>Registro fotográfico real</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
@@ -44,7 +44,7 @@ export const EditorialGallery: React.FC = () => {
 
               {/* Degradado y textos en hover/mobile */}
               <div className="absolute inset-0 bg-gradient-to-t from-slate-950/85 via-slate-950/20 to-transparent opacity-90 sm:opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col justify-end p-5 text-white">
-                <span className="text-[11px] font-bold text-boga-sky uppercase tracking-wider mb-1">
+                <span className="text-[11px] font-bold text-stone-300 uppercase tracking-wider mb-1">
                   {item.category}
                 </span>
                 <p className="text-base font-bold leading-snug">

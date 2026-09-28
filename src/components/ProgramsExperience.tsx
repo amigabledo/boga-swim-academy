@@ -12,16 +12,16 @@ export const ProgramsExperience: React.FC = () => {
   )}`;
 
   return (
-    <section id="programas" className="py-20 lg:py-28 bg-[#F4F8FA] relative overflow-hidden">
+    <section id="programas" className="py-20 lg:py-28 bg-stone-50 relative overflow-hidden">
       {/* Fondo acuático decorativo */}
-      <div className="absolute top-1/2 right-0 w-[500px] h-[500px] bg-boga-sky/5 rounded-full blur-3xl pointer-events-none"></div>
+      <div className="absolute top-1/2 right-0 w-[500px] h-[500px] bg-stone-200/50 rounded-full blur-3xl pointer-events-none"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         
         {/* Encabezado editorial */}
         <div className="text-center max-w-3xl mx-auto mb-14 lg:mb-18">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-100/80 text-boga-navy text-xs font-bold uppercase tracking-wider mb-4">
-            <Waves className="w-3.5 h-3.5 text-boga-sky" />
+          <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-stone-100/80 text-stone-800 text-xs font-bold uppercase tracking-wider mb-4">
+            <Waves className="w-3.5 h-3.5 text-stone-600" />
             <span>Trayectoria formativa</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
@@ -42,7 +42,7 @@ export const ProgramsExperience: React.FC = () => {
                 onClick={() => setSelectedProgramId(prog.id)}
                 className={`relative text-left p-4 sm:p-5 rounded-2xl transition-all duration-300 border ${
                   isSelected
-                    ? 'bg-white border-boga-navy shadow-lg shadow-boga-navy/10 ring-2 ring-boga-navy/10 translate-y-[-2px]'
+                    ? 'bg-white border-stone-800 shadow-lg shadow-stone-800/10 ring-2 ring-stone-800/10 translate-y-[-2px]'
                     : 'bg-white/70 hover:bg-white border-slate-200/80 hover:border-slate-300 text-slate-600'
                 }`}
               >
@@ -51,7 +51,7 @@ export const ProgramsExperience: React.FC = () => {
                   <span
                     className={`text-xs font-bold px-2 py-0.5 rounded-md ${
                       isSelected
-                        ? 'bg-boga-navy text-white'
+                        ? 'bg-stone-800 text-white'
                         : 'bg-slate-100 text-slate-500'
                     }`}
                   >
@@ -64,7 +64,7 @@ export const ProgramsExperience: React.FC = () => {
 
                 <div className="flex items-center justify-between">
                   <div>
-                    <p className={`text-base sm:text-lg font-extrabold ${isSelected ? 'text-boga-navy' : 'text-slate-800'}`}>
+                    <p className={`text-base sm:text-lg font-extrabold ${isSelected ? 'text-stone-900' : 'text-slate-800'}`}>
                       {prog.name}
                     </p>
                     <p className="text-xs text-slate-500 font-medium">
@@ -73,7 +73,7 @@ export const ProgramsExperience: React.FC = () => {
                   </div>
                   <ChevronRight
                     className={`w-4 h-4 transition-transform ${
-                      isSelected ? 'text-boga-navy translate-x-1' : 'text-slate-300'
+                      isSelected ? 'text-stone-800 translate-x-1' : 'text-slate-300'
                     }`}
                   />
                 </div>
@@ -103,7 +103,7 @@ export const ProgramsExperience: React.FC = () => {
                     <span className="px-3.5 py-1.5 rounded-full text-xs font-bold bg-slate-100 text-slate-800">
                       Rango: {activeProgram.ages}
                     </span>
-                    <span className="px-3.5 py-1.5 rounded-full text-xs font-bold bg-boga-mist text-boga-navy">
+                    <span className="px-3.5 py-1.5 rounded-full text-xs font-bold bg-stone-100 text-stone-700">
                       Fase: {activeProgram.stageName}
                     </span>
                   </div>
@@ -150,10 +150,10 @@ export const ProgramsExperience: React.FC = () => {
                 </div>
 
                 {/* Estilos incluidos */}
-                <div className="mt-5 p-3.5 rounded-xl bg-blue-50/70 border border-blue-100/80 flex items-center gap-3">
-                  <Waves className="w-4 h-4 text-boga-navy shrink-0" />
+                <div className="mt-5 p-3.5 rounded-xl bg-stone-50/70 border border-stone-200/80 flex items-center gap-3">
+                  <Waves className="w-4 h-4 text-stone-800 shrink-0" />
                   <p className="text-xs sm:text-sm text-slate-700">
-                    <strong className="text-boga-navy">Estilos de nado:</strong>{' '}
+                    <strong className="text-stone-800">Estilos de nado:</strong>{' '}
                     {activeProgram.styles.join(', ')}
                   </p>
                 </div>
@@ -165,7 +165,7 @@ export const ProgramsExperience: React.FC = () => {
                   href={whatsappProgramUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl text-sm font-bold text-white bg-boga-navy hover:bg-boga-navy-light shadow-md hover:shadow-lg transition-all"
+                  className="inline-flex items-center justify-center gap-2 px-6 py-3.5 rounded-xl text-sm font-bold text-slate-900 bg-boga-yellow hover:bg-boga-yellow-dark shadow-md hover:shadow-lg transition-all"
                 >
                   <span>Consultar sobre el programa {activeProgram.name}</span>
                   <ArrowUpRight className="w-4 h-4" />

@@ -32,7 +32,7 @@ export const Methodology: React.FC = () => {
         
         {/* Encabezado */}
         <div className="max-w-3xl mb-16">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-boga-navy text-xs font-semibold uppercase tracking-wider mb-4">
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-stone-100 text-stone-800 text-xs font-semibold uppercase tracking-wider mb-4">
             Estructura académica
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
@@ -48,32 +48,32 @@ export const Methodology: React.FC = () => {
           
           <div className="p-8 rounded-3xl bg-slate-900 text-white relative overflow-hidden flex flex-col justify-between">
             <div className="space-y-2 relative z-10">
-              <span className="text-boga-sky text-xs font-bold uppercase tracking-widest">Temporada anual</span>
+              <span className="text-stone-400 text-xs font-bold uppercase tracking-widest">Temporada anual</span>
               <p className="text-5xl font-black tracking-tight text-white">43</p>
               <p className="text-sm font-semibold text-slate-300">Semanas de transformación</p>
             </div>
             <p className="text-xs text-slate-400 mt-6 relative z-10">
               Ciclo continuo de 10 meses (febrero a noviembre) que consolida hábitos y habilidades duraderas.
             </p>
-            <div className="absolute -bottom-8 -right-8 w-32 h-32 bg-boga-sky/20 rounded-full blur-xl pointer-events-none"></div>
+            <div className="absolute -bottom-8 -right-8 w-32 h-32 bg-white/10 rounded-full blur-xl pointer-events-none"></div>
           </div>
 
-          <div className="p-8 rounded-3xl bg-boga-navy text-white relative overflow-hidden flex flex-col justify-between">
+          <div className="p-8 rounded-3xl bg-stone-100 text-slate-900 border border-stone-200 relative overflow-hidden flex flex-col justify-between">
             <div className="space-y-2 relative z-10">
-              <span className="text-boga-yellow text-xs font-bold uppercase tracking-widest">Frecuencia semanal</span>
-              <p className="text-5xl font-black tracking-tight text-white">1 <span className="text-2xl font-bold text-boga-sky">hora</span></p>
-              <p className="text-sm font-semibold text-slate-200">De clase estructurada por semana</p>
+              <span className="text-stone-600 text-xs font-bold uppercase tracking-widest">Frecuencia semanal</span>
+              <p className="text-5xl font-black tracking-tight text-slate-900">1 <span className="text-2xl font-bold text-stone-700">hora</span></p>
+              <p className="text-sm font-semibold text-slate-700">De clase estructurada por semana</p>
             </div>
-            <p className="text-xs text-slate-300 mt-6 relative z-10">
+            <p className="text-xs text-slate-600 mt-6 relative z-10">
               Dividida en tres momentos pedagógicos: bienvenida y oración, desarrollo técnico intensivo, y cierre con dinámicas lúdicas.
             </p>
-            <div className="absolute -bottom-8 -right-8 w-32 h-32 bg-boga-yellow/20 rounded-full blur-xl pointer-events-none"></div>
+            <div className="absolute -bottom-8 -right-8 w-32 h-32 bg-stone-200/50 rounded-full blur-xl pointer-events-none"></div>
           </div>
 
-          <div className="p-8 rounded-3xl bg-boga-mist border border-slate-200 text-slate-900 relative overflow-hidden flex flex-col justify-between">
+          <div className="p-8 rounded-3xl bg-white border border-slate-200 text-slate-900 relative overflow-hidden flex flex-col justify-between">
             <div className="space-y-2 relative z-10">
-              <span className="text-boga-navy text-xs font-bold uppercase tracking-widest">Integración formativa</span>
-              <p className="text-5xl font-black tracking-tight text-boga-navy">10</p>
+              <span className="text-stone-600 text-xs font-bold uppercase tracking-widest">Integración formativa</span>
+              <p className="text-5xl font-black tracking-tight text-stone-800">10</p>
               <p className="text-sm font-semibold text-slate-800">Principios bíblicos aplicados</p>
             </div>
             <p className="text-xs text-slate-600 mt-6 relative z-10">

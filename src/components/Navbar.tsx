@@ -52,7 +52,7 @@ export const Navbar: React.FC = () => {
               <a
                 key={link.name}
                 href={link.href}
-                className="px-3 py-2 text-sm font-medium text-slate-700 hover:text-boga-navy transition-colors rounded-lg hover:bg-slate-50"
+                className="px-3 py-2 text-sm font-medium text-slate-700 hover:text-stone-900 transition-colors rounded-lg hover:bg-slate-50"
               >
                 {link.name}
               </a>
@@ -65,7 +65,7 @@ export const Navbar: React.FC = () => {
               href={whatsappUrl}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold text-white bg-boga-navy hover:bg-boga-navy-light shadow-sm hover:shadow transition-all duration-200 group"
+              className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full text-sm font-semibold text-white bg-stone-900 hover:bg-stone-800 shadow-sm hover:shadow transition-all duration-200 group"
             >
               <span>Quiero inscribir a mi hijo</span>
               <ArrowUpRight className="w-4 h-4 transition-transform duration-200 group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
@@ -76,7 +76,7 @@ export const Navbar: React.FC = () => {
           <div className="flex md:hidden">
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="p-2 rounded-lg text-slate-700 hover:text-boga-navy hover:bg-slate-100 transition-colors focus:outline-none focus:ring-2 focus:ring-boga-sky"
+              className="p-2 rounded-lg text-slate-700 hover:text-stone-900 hover:bg-slate-100 transition-colors focus:outline-none focus:ring-2 focus:ring-boga-yellow"
               aria-label="Alternar menú de navegación"
             >
               {mobileMenuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
@@ -94,7 +94,7 @@ export const Navbar: React.FC = () => {
                 key={link.name}
                 href={link.href}
                 onClick={() => setMobileMenuOpen(false)}
-                className="px-3 py-2.5 rounded-lg text-base font-medium text-slate-800 hover:bg-slate-50 hover:text-boga-navy"
+                className="px-3 py-2.5 rounded-lg text-base font-medium text-slate-800 hover:bg-slate-50 hover:text-stone-900"
               >
                 {link.name}
               </a>
@@ -107,7 +107,7 @@ export const Navbar: React.FC = () => {
               target="_blank"
               rel="noopener noreferrer"
               onClick={() => setMobileMenuOpen(false)}
-              className="w-full flex items-center justify-center gap-2 px-5 py-3 rounded-xl text-base font-semibold text-white bg-boga-navy hover:bg-boga-navy-light shadow-sm transition-colors"
+              className="w-full flex items-center justify-center gap-2 px-5 py-3 rounded-xl text-base font-semibold text-white bg-stone-900 hover:bg-stone-800 shadow-sm transition-colors"
             >
               <span>Inscribirme por WhatsApp</span>
               <ArrowUpRight className="w-4 h-4" />

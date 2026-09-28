@@ -49,6 +49,22 @@ Sitio web oficial de **Boga Swim Academy**, academia de natación cristiana ubic
 
 ---
 
+---
+
+## Historial de mejoras recientes
+
+* **Rediseño visual estético y balance de color:**
+  * Se redujo el protagonismo masivo del azul marino en tarjetas y secciones completas.
+  * Incorporación de neutros cálidos (`stone-50`, `stone-100`, blancos puros) y acentos en amarillo dorado y pizarra elegante (`slate-900`).
+  * Ritmo visual refinado con mayor jerarquía editorial y transiciones armónicas.
+* **Tarjeta de previsualización para WhatsApp y redes sociales (Open Graph):**
+  * Creación de imagen de previsualización en alta definición (1200 x 630 px) con fondo sólido limpio para visualización perfecta tanto en modo oscuro como claro.
+  * Etiquetas de metadatos absolutas (`og:image`, `og:image:secure_url`, `og:image:width`, `og:image:height`, `og:site_name`) compatibles con el crawler de WhatsApp.
+* **Sistema de favicons de alta legibilidad:**
+  * Generación de favicons adaptados (`favicon.ico`, `favicon-16x16.png`, `favicon-32x32.png`, `apple-touch-icon.png`) con el imagotipo Boga destacado sobre tarjeta redondeada de alto contraste, visible en cualquier navegador y pestaña.
+
+---
+
 ## Flujo de despliegue en Cloudflare Pages
 
 El flujo definitivo de despliegue para este proyecto sigue el estándar establecido:
@@ -63,12 +79,12 @@ El flujo definitivo de despliegue para este proyecto sigue el estándar establec
 3. Registrar los cambios en el control de versiones:
    ```bash
    git add .
-   git commit -m "feat: plataforma web premium de Boga Swim Academy"
+   git commit -m "feat: rediseño visual, favicons optimizados y tarjeta WhatsApp"
    ```
 
 4. Desplegar directamente a Cloudflare Pages:
    ```bash
-   npx wrangler pages deploy dist
+   npx wrangler pages deploy dist --project-name=boga-swim-academy
    ```
 
 ---

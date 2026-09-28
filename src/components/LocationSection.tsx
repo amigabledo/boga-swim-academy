@@ -17,8 +17,8 @@ export const LocationSection: React.FC = () => {
         
         {/* Encabezado */}
         <div className="max-w-3xl mb-14">
-          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 text-boga-navy text-xs font-semibold uppercase tracking-wider mb-4">
-            <MapPin className="w-3.5 h-3.5 text-boga-navy" />
+          <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-stone-100 text-stone-800 text-xs font-semibold uppercase tracking-wider mb-4">
+            <MapPin className="w-3.5 h-3.5 text-stone-700" />
             <span>Sede e instalaciones</span>
           </div>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-slate-900 tracking-tight leading-tight">
@@ -36,7 +36,7 @@ export const LocationSection: React.FC = () => {
           <div className="lg:col-span-5 p-8 sm:p-10 rounded-3xl bg-slate-900 text-white flex flex-col justify-between space-y-8 shadow-xl">
             <div className="space-y-6">
               <div>
-                <span className="text-boga-yellow text-xs font-bold uppercase tracking-wider">Dirección oficial</span>
+                <span className="text-amber-400 text-xs font-bold uppercase tracking-wider">Dirección oficial</span>
                 <p className="text-lg sm:text-xl font-bold text-white mt-1 leading-snug">
                   Calle 10 de Arroyo Bonito de Manoguayabo #16
                 </p>
@@ -47,7 +47,7 @@ export const LocationSection: React.FC = () => {
 
               <div className="pt-6 border-t border-white/10 space-y-4">
                 <div className="flex items-start gap-3">
-                  <div className="p-2 rounded-lg bg-white/10 text-boga-sky mt-0.5">
+                  <div className="p-2 rounded-lg bg-white/10 text-stone-300 mt-0.5">
                     <Calendar className="w-4 h-4" />
                   </div>
                   <div>
@@ -57,7 +57,7 @@ export const LocationSection: React.FC = () => {
                 </div>
 
                 <div className="flex items-start gap-3">
-                  <div className="p-2 rounded-lg bg-white/10 text-boga-yellow mt-0.5">
+                  <div className="p-2 rounded-lg bg-white/10 text-amber-400 mt-0.5">
                     <Clock className="w-4 h-4" />
                   </div>
                   <div>
@@ -86,7 +86,7 @@ export const LocationSection: React.FC = () => {
                 rel="noopener noreferrer"
                 className="w-full inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl text-sm font-bold text-slate-900 bg-white hover:bg-slate-100 transition-colors shadow-sm"
               >
-                <Navigation className="w-4 h-4 text-boga-navy" />
+                <Navigation className="w-4 h-4 text-stone-800" />
                 <span>Cómo llegar con Google Maps</span>
               </a>
 
@@ -94,7 +94,7 @@ export const LocationSection: React.FC = () => {
                 href={whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-full inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl text-sm font-bold text-white bg-boga-navy hover:bg-boga-navy-light transition-colors border border-white/20"
+                className="w-full inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl text-sm font-bold text-white bg-stone-800 hover:bg-stone-700 transition-colors border border-white/20"
               >
                 <MessageCircle className="w-4 h-4" />
                 <span>Consultar disponibilidad y horarios</span>

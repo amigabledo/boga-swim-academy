@@ -4,7 +4,7 @@ import { RECOGNITIONS_DATA } from '../data/academyData';
 
 export const Recognitions: React.FC = () => {
   return (
-    <section className="py-20 lg:py-28 bg-[#FAFBFC] border-b border-slate-100 relative">
+    <section className="py-20 lg:py-28 bg-stone-50 border-b border-slate-100 relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Encabezado */}
@@ -35,11 +35,11 @@ export const Recognitions: React.FC = () => {
 
               <div className="relative z-10 space-y-6">
                 <div className="flex items-center justify-between">
-                  <div className="w-12 h-12 rounded-2xl bg-boga-navy text-white flex items-center justify-center shadow-md">
+                  <div className="w-12 h-12 rounded-2xl bg-stone-800 text-white flex items-center justify-center shadow-md">
                     {rec.id === 'honor-fares' ? (
-                      <Zap className="w-6 h-6 text-boga-yellow" />
+                      <Zap className="w-6 h-6 text-amber-400" />
                     ) : (
-                      <Star className="w-6 h-6 text-boga-sky" />
+                      <Star className="w-6 h-6 text-stone-300" />
                     )}
                   </div>
                   <span className="text-xs font-bold uppercase tracking-wider text-slate-400">
@@ -51,7 +51,7 @@ export const Recognitions: React.FC = () => {
                   <h3 className="text-2xl sm:text-3xl font-extrabold text-slate-900">
                     {rec.title}
                   </h3>
-                  <p className="text-sm font-bold text-boga-navy mt-1">
+                  <p className="text-sm font-bold text-stone-800 mt-1">
                     {rec.tagline}
                   </p>
                 </div>
@@ -71,7 +71,7 @@ export const Recognitions: React.FC = () => {
               </div>
 
               <div className="relative z-10 pt-6 mt-6 border-t border-slate-100 flex items-center gap-2 text-xs font-semibold text-slate-500">
-                <Compass className="w-4 h-4 text-boga-navy" />
+                <Compass className="w-4 h-4 text-stone-600" />
                 <span>Incentivo a la constancia y superación personal</span>
               </div>
             </div>

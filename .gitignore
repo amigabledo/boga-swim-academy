@@ -35,3 +35,7 @@ files_map.json
 !.dev.vars.example
 .env*
 !.env.example
+
+# Local resources folder
+recursos/
+

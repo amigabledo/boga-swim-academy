@@ -100,7 +100,7 @@ export const Footer: React.FC = () => {
             </p>
             <div className="space-y-2.5 text-xs sm:text-sm text-slate-400">
               <div className="flex items-start gap-2.5">
-                <MapPin className="w-4 h-4 text-boga-sky shrink-0 mt-0.5" />
+                <MapPin className="w-4 h-4 text-stone-400 shrink-0 mt-0.5" />
                 <span>{ACADEMY_INFO.address}</span>
               </div>
               <div className="flex items-center gap-2.5">

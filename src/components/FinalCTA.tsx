@@ -8,15 +8,15 @@ export const FinalCTA: React.FC = () => {
   )}`;
 
   return (
-    <section className="py-20 lg:py-28 bg-gradient-to-b from-slate-900 via-boga-navy to-boga-navy-deep text-white relative overflow-hidden">
+    <section className="py-20 lg:py-28 bg-gradient-to-b from-stone-50 via-white to-warm-100 text-slate-900 relative overflow-hidden">
       {/* Elementos decorativos sutiles */}
-      <div className="absolute top-0 right-1/4 w-96 h-96 bg-boga-sky/15 rounded-full blur-3xl pointer-events-none"></div>
-      <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-boga-yellow/15 rounded-full blur-3xl pointer-events-none"></div>
+      <div className="absolute top-0 right-1/4 w-96 h-96 bg-stone-200/50 rounded-full blur-3xl pointer-events-none"></div>
+      <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-amber-100/50 rounded-full blur-3xl pointer-events-none"></div>
 
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         
-        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-white/10 text-boga-yellow text-xs font-bold uppercase tracking-wider mb-6 border border-white/10">
-          <Waves className="w-3.5 h-3.5 text-boga-sky" />
+        <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-stone-100 text-stone-800 text-xs font-bold uppercase tracking-wider mb-6 border border-stone-200">
+          <Waves className="w-3.5 h-3.5 text-stone-600" />
           <span>Boga mar adentro</span>
         </div>
 
@@ -24,7 +24,7 @@ export const FinalCTA: React.FC = () => {
           El próximo paso de tu hijo comienza en el agua
         </h2>
 
-        <p className="mt-6 text-base sm:text-xl text-slate-200 max-w-2xl mx-auto leading-relaxed">
+        <p className="mt-6 text-base sm:text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">
           Más que nadar, cultivamos seguridad, perseverancia y propósito. Permítenos acompañar a tu familia en este camino de crecimiento integral.
         </p>
 
@@ -42,13 +42,13 @@ export const FinalCTA: React.FC = () => {
 
           <a
             href="#programas"
-            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl text-base font-semibold text-white bg-white/10 hover:bg-white/20 border border-white/15 transition-all duration-200"
+            className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl text-base font-semibold text-slate-700 bg-white hover:bg-stone-50 border border-stone-200 transition-all duration-200"
           >
             <span>Ver edades y niveles</span>
           </a>
         </div>
 
-        <p className="mt-6 text-xs text-slate-300">
+        <p className="mt-6 text-xs text-slate-500">
           Atención personalizada inmediata vía WhatsApp • Santo Domingo Oeste
         </p>
 

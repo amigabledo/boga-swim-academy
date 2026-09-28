@@ -33,6 +33,16 @@ export default {
           },
           mist: '#F2F6FA',
           sand: '#FAF8F5',
+          warm: {
+            50: '#fafaf9',
+            100: '#f5f5f4',
+            200: '#e7e5e4',
+          },
+          accent: {
+            amber: '#fef3c7',
+            emerald: '#d1fae5',
+            rose: '#ffe4e6',
+          }
         },
       },
       fontFamily: {

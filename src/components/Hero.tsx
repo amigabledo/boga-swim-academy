@@ -8,9 +8,9 @@ export const Hero: React.FC = () => {
   )}`;
 
   return (
-    <section id="inicio" className="relative pt-24 sm:pt-28 pb-16 lg:pb-24 overflow-hidden bg-gradient-to-b from-sky-50/50 via-white to-slate-50">
+    <section id="inicio" className="relative pt-24 sm:pt-28 pb-16 lg:pb-24 overflow-hidden bg-gradient-to-b from-warm-50 via-white to-warm-100">
       {/* Elementos decorativos sutiles de fondo (ondas y reflejos acuáticos) */}
-      <div className="absolute top-0 right-0 w-96 h-96 bg-boga-sky/10 rounded-full blur-3xl pointer-events-none -mr-20 -mt-20"></div>
+      <div className="absolute top-0 right-0 w-96 h-96 bg-stone-200/40 rounded-full blur-3xl pointer-events-none -mr-20 -mt-20"></div>
       <div className="absolute top-1/2 left-0 w-80 h-80 bg-boga-yellow/10 rounded-full blur-3xl pointer-events-none -ml-20"></div>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -20,17 +20,17 @@ export const Hero: React.FC = () => {
           <div className="lg:col-span-7 space-y-6 sm:space-y-8">
             
             {/* Tagline superior en tipo oración */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 border border-blue-200/60 text-boga-navy text-xs sm:text-sm font-semibold tracking-wide shadow-sm">
-              <span className="flex h-2 w-2 rounded-full bg-boga-sky animate-ping" />
+            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-stone-100 border border-stone-200/60 text-stone-800 text-xs sm:text-sm font-semibold tracking-wide shadow-sm">
+              <span className="flex h-2 w-2 rounded-full bg-stone-400 animate-ping" />
               <span>Boga mar adentro</span>
-              <span className="text-slate-400">|</span>
-              <span className="text-slate-600 font-normal">Lucas 5:4</span>
+              <span className="text-stone-400">|</span>
+              <span className="text-stone-600 font-normal">Lucas 5:4</span>
             </div>
 
             {/* Titular principal con jerarquía editorial fuerte */}
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-slate-900 tracking-tight leading-[1.1] sm:leading-[1.12]">
               Natación que forma{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-boga-navy via-boga-sky-dark to-boga-sky">
+              <span className="text-stone-700">
                 habilidades
               </span>
               , carácter y propósito.
@@ -48,7 +48,7 @@ export const Hero: React.FC = () => {
                 href={whatsappUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-xl text-base font-bold text-white bg-boga-navy hover:bg-boga-navy-light shadow-lg shadow-boga-navy/25 hover:shadow-xl transition-all duration-200 group"
+                className="inline-flex items-center justify-center gap-2.5 px-7 py-4 rounded-xl text-base font-bold text-slate-900 bg-boga-yellow hover:bg-boga-yellow-dark shadow-lg shadow-boga-yellow/20 hover:shadow-xl transition-all duration-200 group"
               >
                 <span>Quiero inscribir a mi hijo</span>
                 <ArrowUpRight className="w-5 h-5 transition-transform duration-200 group-hover:translate-x-1 group-hover:-translate-y-1" />
@@ -56,7 +56,7 @@ export const Hero: React.FC = () => {
 
               <a
                 href="#programas"
-                className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl text-base font-semibold text-slate-700 bg-white hover:bg-slate-100/80 border border-slate-200 shadow-sm transition-all duration-200"
+                className="inline-flex items-center justify-center gap-2 px-6 py-4 rounded-xl text-base font-semibold text-slate-700 bg-white hover:bg-stone-50 border border-stone-200 shadow-sm transition-all duration-200"
               >
                 <Waves className="w-4 h-4 text-boga-sky" />
                 <span>Conocer los programas</span>
@@ -86,7 +86,7 @@ export const Hero: React.FC = () => {
               </div>
 
               <div className="flex items-start gap-2.5 col-span-2 sm:col-span-1">
-                <div className="p-1.5 rounded-lg bg-blue-50 text-boga-navy mt-0.5">
+                <div className="p-1.5 rounded-lg bg-rose-50 text-rose-600 mt-0.5">
                   <Heart className="w-4 h-4" />
                 </div>
                 <div>
