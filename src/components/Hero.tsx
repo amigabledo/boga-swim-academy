@@ -105,7 +105,7 @@ export const Hero: React.FC = () => {
               {/* Marco fotográfico principal */}
               <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl shadow-slate-900/15 border-4 border-white bg-slate-100 aspect-[4/5] sm:aspect-[4/5]">
                 <img
-                  src="/assets/gallery/hero-prayer.jpg"
+                  src="/assets/gallery/coach-circle-prayer.jpg"
                   alt="Momento de oración y preparación antes de entrar a la piscina en Boga Swim Academy"
                   className="w-full h-full object-cover object-center transform hover:scale-105 transition-transform duration-700"
                 />
@@ -130,8 +130,8 @@ export const Hero: React.FC = () => {
               {/* Fotografía secundaria superpuesta (bebé con entrenador) */}
               <div className="absolute -bottom-6 -left-6 sm:-left-8 z-20 w-36 sm:w-44 rounded-xl overflow-hidden shadow-xl border-4 border-white bg-white">
                 <img
-                  src="/assets/gallery/coach-baby-learning.jpg"
-                  alt="Entrenador guiando a un niño en el agua con paciencia"
+                  src="/assets/gallery/baby-coach-shoulder.jpg"
+                  alt="Entrenador guiando a un niño en el agua con paciencia y ternura"
                   className="w-full h-32 sm:h-36 object-cover"
                 />
                 <div className="p-2 bg-white text-center">

@@ -62,6 +62,11 @@ Sitio web oficial de **Boga Swim Academy**, academia de natación cristiana ubic
   * Etiquetas de metadatos absolutas (`og:image`, `og:image:secure_url`, `og:image:width`, `og:image:height`, `og:site_name`) compatibles con el crawler de WhatsApp.
 * **Sistema de favicons de alta legibilidad:**
   * Generación de favicons adaptados (`favicon.ico`, `favicon-16x16.png`, `favicon-32x32.png`, `apple-touch-icon.png`) con el imagotipo Boga destacado sobre tarjeta redondeada de alto contraste, visible en cualquier navegador y pestaña.
+* **Integración de fotografías reales auténticas (Google Drive):**
+  * Descarga y optimización de 16 fotografías de alta resolución tomadas en la sede de Boga Swim Academy.
+  * Renovación de la portada con la fotografía de oración comunitaria de entrenadores y alumnos, y el acompañamiento afectivo a bebés.
+  * Actualización de los 4 programas formativos (Mekaddesh, Hidékel, Maranatha, Ebenezer) con imágenes reales de cada etapa.
+  * Expansión de la galería editorial a 12 momentos auténticos de valores, ternura, flotación, juego y técnica deportiva.
 
 ---
 

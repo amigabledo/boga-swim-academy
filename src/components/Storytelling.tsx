@@ -31,8 +31,8 @@ export const Storytelling: React.FC = () => {
               <div className="space-y-4">
                 <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/5] bg-slate-100">
                   <img
-                    src="/assets/gallery/smiling-swimmer-girl.jpg"
-                    alt="Estudiante sonriendo en la piscina de Boga Swim Academy"
+                    src="/assets/gallery/girls-praying-boga.jpg"
+                    alt="Alumnas orando con sus camisetas oficiales de Boga Swim Academy"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
                 </div>
@@ -49,8 +49,8 @@ export const Storytelling: React.FC = () => {
                 </div>
                 <div className="rounded-2xl overflow-hidden shadow-lg aspect-[4/5] bg-slate-100">
                   <img
-                    src="/assets/gallery/kid-rainbow-pool.jpg"
-                    alt="Niña sonriendo durante una actividad de juego acuático"
+                    src="/assets/gallery/toddlers-laughing-pool.jpg"
+                    alt="Estudiantes compartiendo con alegría y compañerismo en Boga Swim Academy"
                     className="w-full h-full object-cover hover:scale-105 transition-transform duration-500"
                   />
                 </div>
