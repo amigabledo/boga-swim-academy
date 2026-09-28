@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  body {
+    background-color: #FAFBFC;
+    color: #1E293B;
+  }
+}
+
+/* Efectos de agua sutiles y texturas orgánicas */
+.water-gradient-dark {
+  background: radial-gradient(120% 120% at 50% 10%, #124285 0%, #0A2754 50%, #061733 100%);
+}
+
+.water-gradient-light {
+  background: linear-gradient(180deg, #F0F7FB 0%, #E6F3FA 50%, #FAFBFC 100%);
+}
+
+.water-shimmer {
+  background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.2) 50%, rgba(255,255,255,0) 100%);
+  background-size: 200% 100%;
+}
+
+/* Animaciones y utilidades de renderizado */
+@keyframes waveFloat {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-8px) rotate(0.5deg);
+  }
+}
+
+.animate-wave-float {
+  animation: waveFloat 6s ease-in-out infinite;
+}
+
+/* Estilos de selección y barras de desplazamiento */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #F1F5F9;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}
